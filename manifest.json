@@ -8,5 +8,8 @@
             "matches": ["*://*.youtube.com/*"],
             "js": ["src/index.js"]
         }
-    ]
+    ],
+    "icons": {
+        "128": "assets/logo.png"
+    }
 }
