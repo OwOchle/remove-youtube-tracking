@@ -9,7 +9,7 @@
         }
     ],
     "icons": {
-        "128": "assets/icon.png"
+        "128": "assets/logo.png"
     },
 
     "description": "A simple extension to remove the si parameter from Youtube URLs",
