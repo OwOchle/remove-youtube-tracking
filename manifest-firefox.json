@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Remove YouTube tracking",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["src/index.js"]
+        }
+    ],
+    "icons": {
+        "128": "assets/icon.png"
+    },
+
+    "default_locale": "en",
+    "description": "A simple extension to remove the si parameter from Youtube URLs",
+    "author": "OwOchlé",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "remove.youtube.tracking@moreo.app",
+            "strict_min_version": "42.0"
+        }
+    }
+}
