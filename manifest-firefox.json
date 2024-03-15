@@ -17,7 +17,7 @@
     "browser_specific_settings": {
         "gecko": {
             "id": "remove.youtube.tracking@moreo.app",
-            "strict_min_version": "42.0"
+            "strict_min_version": "52.0"
         }
     }
 }
